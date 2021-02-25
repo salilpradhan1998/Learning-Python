@@ -8,7 +8,6 @@ else:
     b =("Gun")
 print("Computer's Turn:\nSnake(1) Water(2) Gun(3)")
 c= int(input("Your's Turn: \nSnake(1) Water(2) Gun(3)\n"))
-#d= ("s", "w", "g")
 if c == 1 and a == 2:
     print("You = Snake\nComputer = Water")
     print("Hooohoo, You won")
@@ -19,6 +18,6 @@ elif c == 3 and a == 1:
      print("You = Gun\nComputer = Snake")
      print("Hooohoo, You won")
 elif c==a and a==1 or c==2 and a==2 or c==3 and a==3:
-    print("The game is a tie!")
+    print(f"The game is a tie!, you both select same element")
 else:
     print("Sorry, You lost!")
